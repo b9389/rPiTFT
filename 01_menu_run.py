@@ -10,9 +10,9 @@ def _2():
     # X TFT
     x("fb1", __file__, __argv__)
 def _3():
-    run_proc("/usr/bin/sudo -u pi /usr/bin/kodi", __file__, __argv__)
+    run_proc("/usr/bin/sudo -u ichi /usr/bin/kodi", __file__, __argv__)
 def _4():
-    run_proc("/usr/bin/sudo -u pi /usr/bin/emulationstation", __file__, __argv__)
+    run_proc("/usr/bin/sudo -u ichi /usr/bin/emulationstation", __file__, __argv__)
 def _5():
     # next page
     go_to_page(SCREEN_OFF)
